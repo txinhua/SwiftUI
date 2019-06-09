@@ -150,22 +150,15 @@
 		B167A7B222AC61C400232266 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B1DCF4EE22AD36CC00F08859 /* APP */,
+				B1DCF4EB22AD364000F08859 /* Components */,
+				B1DCF4E922AD361700F08859 /* Landmarks */,
 				B1DCF4E722AD312B00F08859 /* Resources */,
-				B1DCF4CD22AD30D200F08859 /* Data.swift */,
-				B1DCF4B522AC99BD00F08859 /* Landmark.swift */,
 				B1DCF4C322AD0D3E00F08859 /* Badge.swift */,
 				B1DCF4C922AD128B00F08859 /* BadgeSymbol.swift */,
 				B1DCF4CB22AD12E300F08859 /* RotatedBadgeSymbol.swift */,
 				B1DCF4C722AD122200F08859 /* BadgeBackground.swift */,
 				B1DCF4C522AD0D8800F08859 /* HexagonParameters.swift */,
-				B1DCF4BF22ACA8FA00F08859 /* UserData.swift */,
-				B1DCF4B722AC9BB200F08859 /* LandmarkList.swift */,
-				B1DCF4AF22AC973700F08859 /* LandmarkDetail.swift */,
-				B1DCF4B122AC979400F08859 /* LandmarkRow.swift */,
-				B167A7B322AC61C400232266 /* AppDelegate.swift */,
-				B167A7B522AC61C400232266 /* SceneDelegate.swift */,
-				B1DCF4A522AC784C00F08859 /* CircleImage.swift */,
-				B1DCF4A722AC78FC00F08859 /* MapView.swift */,
 				B167A7B922AC61C900232266 /* Assets.xcassets */,
 				B167A7BE22AC61C900232266 /* LaunchScreen.storyboard */,
 				B167A7C122AC61C900232266 /* Info.plist */,
@@ -218,6 +211,61 @@
 				B1DCF4D522AD311B00F08859 /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1DCF4E922AD361700F08859 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCF4ED22AD36AA00F08859 /* Components */,
+				B1DCF4EC22AD367A00F08859 /* Views */,
+				B1DCF4EA22AD362500F08859 /* Model */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		B1DCF4EA22AD362500F08859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCF4BF22ACA8FA00F08859 /* UserData.swift */,
+				B1DCF4B522AC99BD00F08859 /* Landmark.swift */,
+				B1DCF4CD22AD30D200F08859 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1DCF4EB22AD364000F08859 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCF4A522AC784C00F08859 /* CircleImage.swift */,
+				B1DCF4A722AC78FC00F08859 /* MapView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B1DCF4EC22AD367A00F08859 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCF4B722AC9BB200F08859 /* LandmarkList.swift */,
+				B1DCF4AF22AC973700F08859 /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1DCF4ED22AD36AA00F08859 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCF4B122AC979400F08859 /* LandmarkRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B1DCF4EE22AD36CC00F08859 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				B167A7B322AC61C400232266 /* AppDelegate.swift */,
+				B167A7B522AC61C400232266 /* SceneDelegate.swift */,
+			);
+			path = APP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
