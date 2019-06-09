@@ -19,7 +19,7 @@ struct BadgeBackground : View {
                 width *= xScale
                 path.move(
                     to: CGPoint(
-                        x: xOffset + width* 0.95,
+                        x: xOffset + width*0.95,
                         y: height * (0.20 + HexagonParameters.adjustment)
                     )
                 )

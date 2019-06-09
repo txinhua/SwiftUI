@@ -15,13 +15,13 @@ final class UserData : BindableObject {
     var showFavoritesOnly = false
     {
         didSet {
-            didChange.self(self)
+            didChange.send(self)
         }
     }
     var landmarks = landmarkData
     {
         didSet {
-            didChange.self(self)
+            didChange.send(self)
         }
     }
     
